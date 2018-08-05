@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { JoinComponent } from './join/join.component';
+import { TeamComponent } from './team/team.component';
+import { ContactComponent } from './contact/contact.component';
 
 const myRoutes : Routes =[
   {
@@ -22,6 +24,14 @@ const myRoutes : Routes =[
   {
     path:'join',
     component: JoinComponent
+  },
+  {
+    path:'team',
+    component: TeamComponent
+  },
+  {
+    path: 'contact',
+    component:ContactComponent
   }
 ]
 
@@ -30,7 +40,9 @@ const myRoutes : Routes =[
     AppComponent,
     HomeComponent,
     AboutComponent,
-    JoinComponent
+    JoinComponent,
+    TeamComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
