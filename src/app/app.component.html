@@ -1,5 +1,10 @@
-<nav class="navbar fixed-top navbar-light bg-light">
-   <a routerLink="/home" routerLinkActive="active">Home</a>
-   <a routerLink="/about" routerLinkActive="active">About</a>
+<nav class="navbar cus-nav fixed-top navbar-light bg-light">
+  <a  class="nav-link" routerLink="/" routerLinkActive="active">
+    <img src="http://placekitten.com/g/50/40" alt="">
+  </a>
+   <a  class="nav-link" routerLink="/home" >Home</a>
+   <a class="nav-link" routerLink="/about" >About</a>
  </nav>
- <router-outlet></router-outlet>
+ <div  class="whole-context">
+   <router-outlet></router-outlet>
+ </div>

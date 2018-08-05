@@ -1,3 +1,13 @@
 .title{
   text-align: center;
 }
+
+.cus-nav{
+  display: -webkit-inline-box
+}
+.nav-link{
+  padding: 25px
+}
+.whole-context{
+  padding-top: 10%
+}
