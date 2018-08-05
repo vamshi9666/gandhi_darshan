@@ -1,9 +1,16 @@
 <nav class="navbar cus-nav fixed-top navbar-light bg-light">
-  <a  class="nav-link" routerLink="/" routerLinkActive="active">
-    <img src="http://placekitten.com/g/50/40" alt="">
+  <a  class="nav-link" routerLink=" " routerLinkActive="active">
+    <img src="http://placekitten.com/g/50/40" alt="logo-nav">
   </a>
-   <a  class="nav-link" routerLink="/home" >Home</a>
-   <a class="nav-link" routerLink="/about" >About</a>
+   <a  class="nav-link" routerLink="/home" >
+     <button class="btn">Home</button>
+   </a>
+   <a class="nav-link " routerLink="/about" >
+     <button class="btn">About</button>
+   </a>
+   <a class="nav-link " routerLink="/join" >
+     <button class="btn">Join us </button>
+   </a>
  </nav>
  <div  class="whole-context">
    <router-outlet></router-outlet>

@@ -6,8 +6,14 @@
   display: -webkit-inline-box
 }
 .nav-link{
-  padding: 25px
+  padding: 0;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .whole-context{
-  padding-top: 10%
+  padding-top: 10%;
+  display: flex;
+  justify-content: center;
 }

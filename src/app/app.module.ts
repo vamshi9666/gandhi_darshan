@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { JoinComponent } from './join/join.component';
 
 const myRoutes : Routes =[
   {
@@ -12,10 +13,15 @@ const myRoutes : Routes =[
   },
   {
     path:' ',
-    redirectTo:'/home'  },
+    redirectTo:'/home'
+  },
   {
     path:'about',
     component:AboutComponent
+  },
+  {
+    path:'join',
+    component: JoinComponent
   }
 ]
 
@@ -23,7 +29,8 @@ const myRoutes : Routes =[
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    JoinComponent
   ],
   imports: [
     BrowserModule,
