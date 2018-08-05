@@ -12,9 +12,7 @@ const myRoutes : Routes =[
   },
   {
     path:' ',
-    redirectTo:'/home',
-    pathmatch:'full'
-  },
+    redirectTo:'/home'  },
   {
     path:'about',
     component:AboutComponent
