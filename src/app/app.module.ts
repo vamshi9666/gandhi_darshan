@@ -37,7 +37,8 @@ const myRoutes : Routes =[
   {
     path:'press',
     component:PressComponent
-  }
+  },
+
 ]
 
 @NgModule({
@@ -48,7 +49,7 @@ const myRoutes : Routes =[
     JoinComponent,
     TeamComponent,
     ContactComponent,
-    PressComponent
+    PressComponent,
   ],
   imports: [
     BrowserModule,
