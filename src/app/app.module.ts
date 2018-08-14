@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { JoinComponent } from './join/join.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
+import { PressComponent } from './press/press.component';
 
 const myRoutes : Routes =[
   {
@@ -32,6 +33,10 @@ const myRoutes : Routes =[
   {
     path: 'contact',
     component:ContactComponent
+  },
+  {
+    path:'press',
+    component:PressComponent
   }
 ]
 
@@ -42,7 +47,8 @@ const myRoutes : Routes =[
     AboutComponent,
     JoinComponent,
     TeamComponent,
-    ContactComponent
+    ContactComponent,
+    PressComponent
   ],
   imports: [
     BrowserModule,
