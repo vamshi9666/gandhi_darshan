@@ -18,8 +18,18 @@
   justify-content: center;
 }
 
+.tog_btn{
+  display: none;
+
+}
 @media screen and (max-width:750px){
   .nav-link{
     display: none;
+  }
+  .cus-nav{
+    height: 60px
+  }
+  .tog_btn{
+    display: block;
   }
 }
