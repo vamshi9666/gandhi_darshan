@@ -1,7 +1,6 @@
 
 const express= require('express'),
 	 path = require('path');
-
 const app =express();
 
 
@@ -13,7 +12,7 @@ app.get('/*', (req,res)=>{
 
 });
 //
-sai charans comment 
+sai charans comment
 //
 app.listen(process.env.PORT || 8080, ()=>{
 console.log('Server started');
