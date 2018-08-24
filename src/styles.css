@@ -1,13 +1,10 @@
 * {
-  margin: 0;
-  padding: 0
+  margin: 0px;
+  padding: 0px
 }
 
-html , body {
-  height: 100%
-}
 .container{
-  min-height: 95%;
+  min-height: 95vh;
 }
 
 .main{
@@ -20,4 +17,19 @@ html , body {
   position: relative;
   height: 50px;
   clear: both;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: small
+}
+
+.foot-con{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.foot-text{
+  padding: 4px;
+  color: white;
 }
