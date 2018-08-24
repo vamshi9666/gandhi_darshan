@@ -8,6 +8,7 @@ import { JoinComponent } from './join/join.component';
 import { TeamComponent } from './team/team.component';
 import { ContactComponent } from './contact/contact.component';
 import { PressComponent } from './press/press.component';
+import { EventsComponent } from './events/events.component';
 
 const myRoutes : Routes =[
   {
@@ -38,7 +39,10 @@ const myRoutes : Routes =[
     path:'press',
     component:PressComponent
   },
-
+  {
+    path:'events',
+    component:EventsComponent
+  }
 ]
 
 @NgModule({
@@ -50,6 +54,7 @@ const myRoutes : Routes =[
     TeamComponent,
     ContactComponent,
     PressComponent,
+    EventsComponent,
   ],
   imports: [
     BrowserModule,

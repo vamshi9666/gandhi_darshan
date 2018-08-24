@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0
+}
+
+html , body {
+  height: 100%
+}
+.container{
+  min-height: 95%;
+}
+
+.main{
+  overflow: auto;
+  padding-bottom:  50px
+}
+
+.footer{
+  background-color: #000;
+  position: relative;
+  height: 50px;
+  clear: both;
+}
