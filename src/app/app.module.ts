@@ -12,13 +12,10 @@ import { EventsComponent } from './events/events.component';
 
 const myRoutes : Routes =[
   {
-    path:'home',
+    path:'',
     component:HomeComponent
   },
-  {
-    path:' ',
-    redirectTo:'/home'
-  },
+
   {
     path:'about',
     component:AboutComponent
